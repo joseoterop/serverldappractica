@@ -1,0 +1,35 @@
+dn: uid=pedrito,ou=productes,dc=edt,dc=org
+objectClass: xmaster
+objectClass: inetOrgPerson
+cn: pedro sanchez
+sn: perdo
+uid: pedrito
+xtitulacion: Doctor
+xnumero: 10
+xweb: www.psoe.es
+xfoto: ///opt/docker/pedro.jpeg
+xsoborno: TRUE
+
+dn: cn=casado,ou=productes,dc=edt,dc=org
+objectClass: xmaster
+objectClass: inetOrgPerson
+cn: pablo
+sn: pablito
+uid: pablo
+xtitulacion: abogado por abengoa
+xnumero: 11
+xweb: www.pp.es
+xfoto: ///opt/docker/pablocasado.jpeg
+xsoborno: TRUE
+
+dn: uid=Iglesias,ou=productes,dc=edt,dc=org
+objectClass: xmaster
+objectClass: inetOrgPerson
+cn: pablo
+sn: lila
+xtitulacion: Doctor
+xnumero: 12
+xweb: www.elrojo.es
+xfoto: ///opt/docker/pabloiglesias.jpeg
+xsoborno: FALSE
+
